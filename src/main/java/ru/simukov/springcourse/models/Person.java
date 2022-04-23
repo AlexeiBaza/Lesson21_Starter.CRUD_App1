@@ -1,4 +1,4 @@
-package ru.alishev.springcourse.models;
+package ru.simukov.springcourse.models;
 
 public class Person {
     private int id;

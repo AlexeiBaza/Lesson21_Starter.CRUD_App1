@@ -1,7 +1,7 @@
-package ru.alishev.springcourse.dao;
+package ru.simukov.springcourse.dao;
 
 import org.springframework.stereotype.Component;
-import ru.alishev.springcourse.models.Person;
+import ru.simukov.springcourse.models.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 @Component
 public class PersonDAO {
     private static int PEOPLE_COUNT;
-    private List<Person> people;
+    private final List<Person> people;
 
     {
         people = new ArrayList<>();

@@ -1,4 +1,4 @@
-package ru.alishev.springcourse.config;
+package ru.simukov.springcourse.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -16,7 +16,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
  * @author Neil Alishev
  */
 @Configuration
-@ComponentScan("ru.alishev.springcourse")
+@ComponentScan("ru.simukov.springcourse")
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
 
